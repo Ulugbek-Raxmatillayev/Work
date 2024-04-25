@@ -1,0 +1,39 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="../css/normalize.css")
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        link(rel="stylesheet", href="../style.css")
+        title Document
+    body 
+
+        .box.container  
+            .form-box 
+                .row 
+                    .col.col1
+                        .text-sign 
+                            h1 Sign In
+                        .icons 
+                            .icon-item 
+                                    i.bi.bi-google
+                            .icon-item 
+                                i.bi.bi-github
+                            .icon-item 
+                                i.bi.bi-facebook
+                        .choose_text 
+                            p or use your email password
+                        form.form(action="#")
+                            .input-box 
+                                input(type="text" placeholder="Email")
+                                input(type="text" placeholder="Password")
+                                .forgot-pass 
+                                    p 
+                                    | Forgot Your Password?
+                                button.btn_submit Sign In
+                    .col.col2 
+                        h1.col2_text Hello, Hotelier!
+                        p.col2_text2 Register with your personal account to use this  apps
+                        button.col2_btn SIGN UP
+                
